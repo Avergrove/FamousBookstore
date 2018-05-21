@@ -164,6 +164,7 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App_Code\BusinessLogic.cs" />
     <Compile Include="Book.cs">
       <DependentUpon>BookshopModel.tt</DependentUpon>
     </Compile>
