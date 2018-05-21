@@ -114,6 +114,7 @@
     <Content Include="Protected\Confirmation.aspx" />
     <Content Include="Protected\ProductAdd.aspx" />
     <Content Include="Protected\ProductUpdate.aspx" />
+    <Content Include="Resources\CSS\Default.css" />
     <Content Include="Resources\Images\9780060555665.jpg" />
     <Content Include="Resources\Images\9780062377210.jpg" />
     <Content Include="Resources\Images\9780062390851.jpg" />
@@ -161,6 +162,7 @@
     <Content Include="Resources\Images\9781616205676.jpg" />
     <Content Include="Resources\Images\9781619634480.jpg" />
     <Content Include="Resources\Images\9781911015222.jpg" />
+    <Content Include="Resources\Images\books.jpg" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

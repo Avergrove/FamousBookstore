@@ -12,5 +12,14 @@ namespace FamousBookstore
         {
             return "Hello World";
         }
+
+        public static string FetchData()
+        {
+            var context = new BookshopEntities();
+            var query = from x in context.Books select x;
+            string toReturn = query.First().Author;
+
+            return toReturn;
+        }
     }
 }
