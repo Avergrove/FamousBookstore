@@ -14,7 +14,7 @@ namespace FamousBookstore
     
         protected void Page_Load(object sender, EventArgs e)
         {
-            BusinessLogic.HelloWorld();
+          
         }
     }
 }
