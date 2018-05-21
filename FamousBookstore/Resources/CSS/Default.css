@@ -9,11 +9,26 @@ h1 {
     margin: 0 auto;
     clear: both;
     padding-top: 15%;
+    padding-bottom: 5px;
+}
+
+h2 {
+    font-size: 20px;
+    color: #ddecf5;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    clear: both;
     padding-bottom: 20px;
 }
 
-.form {
+.middleAlign {
     text-align: center;
+}
+
+.middleAlign > input{
+    width: 50%;
+    height: 35px;
 }
 
 #form-search {
@@ -26,13 +41,14 @@ h1 {
     padding: 0 8px;
 }
 
-/*#form-search:hover {
-  border-color: #e4e4e4;
-  padding-top: 0;
-}*/
-
 .buttons {
     text-align: center;
     padding-top: 30px;
     margin-bottom: 300px;
+}
+
+.btn{
+    background-color: #fffbf7;
+    height: 50px;
+    width: 100px;
 }

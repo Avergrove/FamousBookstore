@@ -146,6 +146,7 @@
     <Content Include="Resources\Images\9781619634480.jpg" />
     <Content Include="Resources\Images\9781911015222.jpg" />
     <Content Include="Resources\Images\books.jpg" />
+    <Content Include="Resources\Images\placeholder.png" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
