@@ -74,28 +74,11 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="BookshopModel.Context.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>BookshopModel.edmx</DependentUpon>
-      <LastGenOutput>BookshopModel.Context.cs</LastGenOutput>
-    </Content>
-    <Content Include="BookshopModel.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>BookshopModel.edmx</DependentUpon>
-      <LastGenOutput>BookshopModel.cs</LastGenOutput>
-    </Content>
     <Content Include="Browse.aspx" />
     <Content Include="Cart.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="Details.aspx" />
     <Content Include="FamousBookstore.Master" />
-    <EntityDeploy Include="BookshopModel.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>BookshopModel.Designer.cs</LastGenOutput>
-    </EntityDeploy>
-    <Content Include="BookshopModel.edmx.diagram">
-      <DependentUpon>BookshopModel.edmx</DependentUpon>
-    </Content>
     <None Include="packages.config" />
     <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
     <None Include="Properties\PublishProfiles\CustomProfile1.pubxml" />
@@ -167,24 +150,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Code\BusinessLogic.cs" />
-    <Compile Include="Book.cs">
-      <DependentUpon>BookshopModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="BookshopModel.Context.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>BookshopModel.Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="BookshopModel.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>BookshopModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="BookshopModel.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>BookshopModel.edmx</DependentUpon>
-    </Compile>
+    <Compile Include="Book.cs" />
+    <Compile Include="BookshopModel.cs" />
     <Compile Include="Browse.aspx.cs">
       <DependentUpon>Browse.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -199,9 +166,7 @@
     <Compile Include="Cart.aspx.designer.cs">
       <DependentUpon>Cart.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Category.cs">
-      <DependentUpon>BookshopModel.tt</DependentUpon>
-    </Compile>
+    <Compile Include="Category.cs" />
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -216,9 +181,7 @@
     <Compile Include="Details.aspx.designer.cs">
       <DependentUpon>Details.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Discount.cs">
-      <DependentUpon>BookshopModel.tt</DependentUpon>
-    </Compile>
+    <Compile Include="Discount.cs" />
     <Compile Include="FamousBookstore.Master.cs">
       <DependentUpon>FamousBookstore.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -236,9 +199,7 @@
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
-    <Compile Include="OrderDetail.cs">
-      <DependentUpon>BookshopModel.tt</DependentUpon>
-    </Compile>
+    <Compile Include="OrderDetail.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Protected\Admin.aspx.cs">
       <DependentUpon>Admin.aspx</DependentUpon>
