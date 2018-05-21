@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Data;
-using System.Data.SqlClient;
 using System.Transactions;
 
 
@@ -88,7 +84,7 @@ namespace FamousBookstore
         //To View Details (use selected book ID as input argument)
         public static List<Book> ListBookDetails(int BID)
         {    using (BookshopModel entities = new BookshopModel())
-            {return entities.Books.Where(p => p.BookID == BID).ToList<Book>()}
+            { return entities.Books.Where(p => p.BookID == BID).ToList<Book>(); }
         }
 
         //For CheckOut Page
@@ -106,12 +102,14 @@ namespace FamousBookstore
         public static List<OrderDetail> SortOrderID()
         {
             using (BookshopModel entities = new BookshopModel())
-            { return entities.OrderDetails.OrderByDescending(x => x.OrderID).ToList<OrderDetail>();
+            {
+                return entities.OrderDetails.OrderByDescending(x => x.OrderID).ToList<OrderDetail>();
             }
         }
 
         public  static void CheckOut(string UName, int bookid, int quantity, float fprice)
-        { static int LastOrderID;
+        {
+            int LastOrderID;
             int g;
             using (TransactionScope Ts = new TransactionScope())
             {

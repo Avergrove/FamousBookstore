@@ -11,7 +11,12 @@ namespace FamousBookstore
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            // Populate the Placeholder with rows and datas of book details
+            List<Book> books = BusinessLogic.ListAllBooks();
+            foreach(Book b in books)
+            {
 
+            }
         }
     }
 }
