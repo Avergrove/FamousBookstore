@@ -27,7 +27,7 @@
 
                 <!--Navbar Navigation list-->
                 <ul class="nav navbar-nav">
-                  <li class="active"><a href="default.aspx">Home</a></li>
+                  <li><a href="default.aspx">Home</a></li>
                   <li><a href="Browse.aspx">Browse</a></li>
                   <li><a href="#">Page 2</a></li>
                   <li><a href="#">Page 3</a></li>

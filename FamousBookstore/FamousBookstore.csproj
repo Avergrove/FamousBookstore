@@ -82,6 +82,9 @@
     <None Include="packages.config" />
     <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
     <None Include="Properties\PublishProfiles\CustomProfile1.pubxml" />
+    <None Include="Properties\PublishProfiles\CustomProfile2.pubxml" />
+    <None Include="Properties\PublishProfiles\CustomProfile3.pubxml" />
+    <None Include="Properties\PublishProfiles\Famouse BookStore Publish.pubxml" />
     <None Include="Properties\PublishProfiles\IIS Deployment Profile.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -98,6 +101,7 @@
     <Content Include="Protected\ProductAdd.aspx" />
     <Content Include="Protected\ProductUpdate.aspx" />
     <Content Include="Resources\CSS\Default.css" />
+    <Content Include="Resources\CSS\Details.css" />
     <Content Include="Resources\Images\9780060555665.jpg" />
     <Content Include="Resources\Images\9780062377210.jpg" />
     <Content Include="Resources\Images\9780062390851.jpg" />
