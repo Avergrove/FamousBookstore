@@ -80,7 +80,6 @@
     <Content Include="Default.aspx" />
     <Content Include="Details.aspx" />
     <Content Include="FamousBookstore.Master" />
-    <Content Include="Confirmation.aspx" />
     <None Include="packages.config" />
     <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
     <None Include="Properties\PublishProfiles\CustomProfile1.pubxml" />
@@ -231,13 +230,6 @@
     </Compile>
     <Compile Include="Protected\ProductUpdate.aspx.designer.cs">
       <DependentUpon>ProductUpdate.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Confirmation.aspx.cs">
-      <DependentUpon>Confirmation.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Confirmation.aspx.designer.cs">
-      <DependentUpon>Confirmation.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
