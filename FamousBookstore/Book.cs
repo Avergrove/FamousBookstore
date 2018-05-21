@@ -6,6 +6,7 @@ namespace FamousBookstore
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Data.Entity.Spatial;
 
+   
     [Table("Book")]
     public partial class Book
     {
