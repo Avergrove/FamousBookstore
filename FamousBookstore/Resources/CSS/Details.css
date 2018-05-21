@@ -1,0 +1,34 @@
+﻿body {
+    background-color: white;
+}
+
+#book-image{
+    height: 100%;
+    width: 80%;
+    display: block;
+    margin: auto auto;
+}
+
+#title{
+    text-decoration: underline;
+    margin-bottom: 0;
+}
+
+#author{
+    font-size: 15px;
+    color: grey;
+    margin-bottom: 2.5vh;
+}
+
+#synopsis{
+    margin-bottom: 2.5vh;
+}
+
+#price{
+    
+}
+
+.container-fluid{
+    border-bottom: 5px;
+    border-color: black;
+}
